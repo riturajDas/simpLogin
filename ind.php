@@ -1,9 +1,9 @@
 <?php
 	
-	$host = "localhost";/*"mysql.hostinger.in";*/
-	$user = "root";/*"u821444455_rdas";*/
-	$pass = "";/*"shyamolimaburagohain";*/
-	$db = "testdb";/*"u821444455_labdb";*/
+	$host = "localhost";
+	$user = "root";
+	$pass = "";
+	$db = "testdb";
 
 	$nameErr = $emailErr = $passErr = "";
 	$username = $password = $email = $noData = "";
