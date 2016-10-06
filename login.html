@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="icon" type="image/png" href="img/Drawing.png">
+		<title>Rituraj Das | login</title>
+		<link rel="stylesheet" type="text/css" href="Skeleton/css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="Skeleton/css/skeleton.css">
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="login.css">
+	</head>
+	<body id="grad">
+		<div class="container">
+			<h1>Hey ! Whatsup !? Glad you came back.</h1>
+			<h3>Please <strong>Log In</strong> here to step inside</h3>
+			<hr>
+			<?php echo $noData; ?>
+			<form action="login.php" method="POST">
+				Username :<br>
+				<input id="name" type="text" name="username" placeholder="Alok Nath right?" required><br>
+				Password :<br>
+				<input id="pwd" type="password" name="password" placeholder="haldichandan123?" min="6" required><hr>
+				<input class="button button-primary" type="submit" value="SUBMIT">
+				OR
+				<a class="button button-primary" href="index.html">SIGN UP</a>
+			</form>
+		</div>
+		<script type="text/javascript" src="JQuery/jquery.min.js"></script>
+		<script type="text/javascript" src="superplaceholder/src/superplaceholder.js"></script>
+		<script type="text/javascript" src="login.js"></script>
+	</body>
+</html>
