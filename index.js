@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$("#name").click(superplaceholder({	//SUPERPALCEHOLDERJS by Kushagra Gour. check it out!
+	$("#name").click(superplaceholder({	//SUPERPLACEHOLDERJS by Kushagra Gour. check it out!
 		el:document.querySelector("#name"),
 		sentences:["Alok Nath", "Tony Stark", "Donald Trump"],
 		options: {
